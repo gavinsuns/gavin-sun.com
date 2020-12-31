@@ -1,0 +1,161 @@
+
+
+body {
+	background-color: #D4E6F1;
+}
+
+
+.container {
+	background-color: black;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Fira Sans, sans-serif;
+}
+
+
+.header {
+	padding: 20px;
+	background-color: black;
+	color: #D4E6F1;
+	text-align: center;
+}
+
+.content {
+	padding: 10px;
+}
+
+.nav {
+	margin-top: -0.7%;
+	margin-left: 2.1%;
+	width: 175px;
+	float: left;
+	padding: 10px;
+	background-color: #D4E6F1;
+	position: fixed;
+	border-radius: 8px;
+}
+
+.nav ul {
+	list-style-type: none;
+	padding: 0;
+	color: black;
+	font-size: 25px;
+	line-height: 200%;
+}
+
+.main {
+	width: 600px;
+	float: right;
+	margin-right: 300px;
+	color: #D4E6F1;
+	margin-bottom: 450px;
+}
+
+h1 {
+	margin: 0;
+	color: #D4E6F1;
+	font-size: 40px;
+}
+h2 {
+	margin: 0;
+	color: black;
+	font-size: 30px;
+}
+
+h3 {
+	margin: 0;
+	color: #50C8A0;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.footer {
+	clear: both;
+	text-align: right;
+	padding: 10px;
+	background-color: black;
+	color: #D4E6F1;
+}
+
+.search-box {
+	position: absolute;
+	top: 4%;
+	left: 11%;
+	transform: translate (-50%, -50%);
+	background: #2f3640;
+	height: 30px;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.search-box:hover > .search-txt {
+	width: 120px;
+	padding: 0 6px;
+	transition: 0.4s;
+}
+
+.search-btn {
+	color: #D4E6F1;
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-txt {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 30px;
+	width: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#navig {
+	background-color: #F0FFFF
+}
+
+#navig:hover {
+	background-color: #5F9EA0;
+	transition: 0.5s;
+}
+
+#soc2 {
+	text-decoration: none;
+	color: #57E8EA;
+}
+
+.media {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#soc {
+	list-style: none;
+	margin: 10px 20px;
+	display: inline-flex;
+	font-size: 80px;
+	padding: 20px 20px;
+}
+
+
+#soc2:hover {
+	color: #00C67E;
+	transition: 0.5s;
+}
