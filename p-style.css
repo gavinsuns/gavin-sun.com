@@ -1,11 +1,11 @@
 
 body {
-	background-color: #D4E6F1;
+	background-color: #ffffff;
 }
 
 
 .container {
-	background-color: black;
+	background-color: #0e0f0f;
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,8 +16,8 @@ body {
 
 .header {
 	padding: 20px;
-	background-color: black;
-	color: #D4E6F1;
+	background-color: #0e0f0f;
+	color: #ffffff;
 	text-align: center;
 }
 
@@ -29,7 +29,7 @@ body {
 	width: 175px;
 	float: left;
 	padding: 10px;
-	background-color: #D4E6F1;
+	background-color: #ffffff;
 	margin-left: 20px;
 	position: fixed;
 	border-radius: 8px;
@@ -38,7 +38,7 @@ body {
 .nav ul {
 	list-style-type: none;
 	padding: 0;
-	color: black;
+	color: #0e0f0f;
 	font-size: 25px;
 	line-height: 200%;
 }
@@ -47,24 +47,24 @@ body {
 	width: 600px;
 	float: right;
 	margin-right: 300px;
-	color: #D4E6F1;
+	color: #ffffff;
 	margin-bottom: 50px;
 }
 
 h1 {
 	margin: 0;
-	color: #D4E6F1;
+	color: #ffffff;
 	font-size: 40px;
 }
 h2 {
 	margin: 0;
-	color: black;
+	color: #0e0f0f;
 	font-size: 30px;
 }
 
 h3, h4, h5, h6, h7, h8 {
 	margin: 0;
-	color: #50C8A0;
+	color: #ffffff;
 	font-size: 30px;
 	font-weight: lighter;
 }
@@ -73,8 +73,8 @@ h3, h4, h5, h6, h7, h8 {
 	clear: both;
 	text-align: right;
 	padding: 10px;
-	background-color: black;
-	color: #D4E6F1;
+	background-color: #0e0f0f;
+	color: #ffffff;
 }
 
 .search-box {
@@ -82,7 +82,7 @@ h3, h4, h5, h6, h7, h8 {
 	top: 4%;
 	left: 11%;
 	transform: translate (-50%, -50%);
-	background: #2f3640;
+	background: #0e0f0f;
 	height: 30px;
 	border-radius: 30px;
 	padding: 10px;
@@ -95,12 +95,12 @@ h3, h4, h5, h6, h7, h8 {
 }
 
 .search-btn {
-	color: #D4E6F1;
+	color: #ffffff;
 	float: right;
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
-	background: #2f3640;
+	background: #0e0f0f;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -112,7 +112,7 @@ h3, h4, h5, h6, h7, h8 {
 	outline: none;
 	float: left;
 	padding: 0;
-	color: white;
+	color: #ffffff;
 	font-size: 16px;
 	transition: 0.4s;
 	line-height: 30px;
@@ -121,24 +121,24 @@ h3, h4, h5, h6, h7, h8 {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #0e0f0f;
 }
 
 #navig {
-	background-color: #F0FFFF
+	background-color: #ffffff
 }
 
 #navig:hover {
-	background-color: #5F9EA0;
+	background-color: #57E8EA;
 	transition: 0.5s;
 }
 
 #hyperlink {
-	color: #57E8EA;
+	color: #ffffff;
 }
 
 #hyperlink:hover {
-	color: #00C67E;
+	color: #57E8EA;
 	transition: 0.5s;
 }
 
