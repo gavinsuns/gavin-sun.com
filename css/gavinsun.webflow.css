@@ -756,8 +756,8 @@ figcaption {
   grid-column-gap: 80px;
   grid-row-gap: 30px;
   grid-template-areas: ". .";
-  -ms-grid-columns: 1fr 80px 2fr;
-  grid-template-columns: 1fr 2fr;
+  -ms-grid-columns: 1fr 80px 0.75fr;
+  grid-template-columns: 1fr 0.75fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -818,7 +818,7 @@ figcaption {
 }
 
 .personal-features-grid {
-  margin-bottom: 110px;
+  margin-bottom: 140px;
   grid-column-gap: 80px;
   grid-row-gap: 20px;
   grid-template-areas: ". ."
@@ -1004,19 +1004,22 @@ figcaption {
 }
 
 .rich-text-block {
+  margin-right: 17px;
   margin-bottom: 0px;
-  border-right: 17px solid transparent;
-  border-left: 17px solid transparent;
+  margin-left: 17px;
+  border: 0px solid #000;
 }
 
 .grid {
+  margin-right: 17px;
   margin-bottom: 140px;
+  margin-left: 17px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto minmax(auto, 1fr);
   grid-template-rows: auto minmax(auto, 1fr);
-  border-right: 17px solid transparent;
-  border-left: 17px solid transparent;
+  border-right: 0px none #000;
+  border-left: 0px none #000;
 }
 
 .list {
@@ -1080,6 +1083,11 @@ figcaption {
 .bomb {
   padding: 15px;
   border: 1px solid #000;
+}
+
+.heading-3 {
+  margin-right: 17px;
+  margin-left: 17px;
 }
 
 @media screen and (max-width: 991px) {
