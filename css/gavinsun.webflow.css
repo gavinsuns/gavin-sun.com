@@ -180,8 +180,8 @@ figcaption {
 }
 
 .container {
-  width: 100%;
-  max-width: 1140px;
+  width: auto;
+  max-width: none;
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
@@ -227,6 +227,7 @@ figcaption {
 }
 
 .heading-jumbo {
+  max-width: none;
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 64px;
@@ -266,6 +267,7 @@ figcaption {
 }
 
 .paragraph-light {
+  max-width: none;
   opacity: 0.6;
 }
 
@@ -274,14 +276,36 @@ figcaption {
 }
 
 .section {
-  margin-right: 30px;
-  margin-left: 30px;
+  display: block;
+  margin-right: 50px;
+  margin-left: 50px;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 .section.cc-contact {
   padding-right: 80px;
   padding-left: 80px;
   background-color: #f4f4f4;
+}
+
+.section.container {
+  position: static;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  display: block;
+  max-width: none;
+  margin-bottom: 60px;
+  clear: none;
+}
+
+.section.container.about-intro-grid {
+  max-width: 1140px;
 }
 
 .button {
@@ -452,6 +476,8 @@ figcaption {
 }
 
 .name-text {
+  width: auto;
+  max-width: none;
   font-size: 20px;
   line-height: 34px;
   font-weight: 400;
@@ -1004,16 +1030,16 @@ figcaption {
 }
 
 .rich-text-block {
-  margin-right: 17px;
+  margin-right: 0px;
   margin-bottom: 0px;
-  margin-left: 17px;
+  margin-left: 0px;
   border: 0px solid #000;
 }
 
 .grid {
-  margin-right: 17px;
+  margin-right: 0px;
   margin-bottom: 140px;
-  margin-left: 17px;
+  margin-left: 0px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto minmax(auto, 1fr);
@@ -1033,9 +1059,17 @@ figcaption {
 }
 
 .grid-3 {
-  margin-right: 50px;
-  margin-left: 50px;
-  grid-column-gap: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  grid-column-gap: 79px;
   -ms-grid-columns: 3fr 1fr;
   grid-template-columns: 3fr 1fr;
   -ms-grid-rows: auto;
@@ -1045,13 +1079,14 @@ figcaption {
 }
 
 .mail {
-  width: 300px;
+  width: auto;
+  max-width: 265.25px;
   border: 1px solid #000;
 }
 
 .heading {
   width: 450px;
-  margin-left: 50px;
+  margin-left: 0px;
   border-left: 0px solid transparent;
   -o-object-fit: fill;
   object-fit: fill;
@@ -1062,16 +1097,20 @@ figcaption {
 }
 
 .factory {
+  max-width: 265.25px;
   padding: 15px;
   border: 1px solid #000;
 }
 
 .personal {
-  padding: 25px;
+  width: auto;
+  max-width: 265.25px;
+  padding: 15px;
   border: 1px solid #000;
 }
 
 .editor {
+  max-width: 265.25px;
   padding: 15px;
   border: 1px solid #000;
 }
@@ -1081,13 +1120,40 @@ figcaption {
 }
 
 .bomb {
+  max-width: 265.25px;
   padding: 15px;
   border: 1px solid #000;
 }
 
 .heading-3 {
-  margin-right: 17px;
-  margin-left: 17px;
+  position: static;
+  display: block;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.grid-4 {
+  margin-bottom: 60px;
+  grid-column-gap: 79px;
+  -ms-grid-columns: 4fr 1fr;
+  grid-template-columns: 4fr 1fr;
+  -ms-grid-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+
+.container-2 {
+  display: block;
+  max-width: 1140px;
+  padding-left: 0px;
+  border-right: 0px solid #000;
+  border-left: 0px solid #000;
+}
+
+.grid-5 {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -1639,6 +1705,21 @@ figcaption {
     font-size: 30px;
     line-height: 46px;
   }
+
+  .grid-3 {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .heading {
+    width: auto;
+  }
+
+  .personal {
+    padding: 15px;
+  }
 }
 
 #w-node-_9b2922ad-09b1-aebb-0430-7dee623c62c1-8d14c23b {
@@ -1740,15 +1821,15 @@ figcaption {
   grid-row-end: 2;
 }
 
-#w-node-c36e6906-7de7-f133-c1c7-618d37943145-8d14c23b {
+#w-node-_1fdf0a3c-fcbd-fdd7-87f0-3cfe037d4c65-8d14c23b {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
   -ms-grid-row-span: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 
 @media screen and (max-width: 991px) {
