@@ -1156,6 +1156,22 @@ figcaption {
   grid-template-rows: auto;
 }
 
+.list-2 {
+  margin-top: 0px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.list-item-2 {
+  list-style-type: none;
+}
+
+.list-item-3 {
+  list-style-type: none;
+}
+
 @media screen and (max-width: 991px) {
   .styleguide-block {
     text-align: center;
