@@ -1069,7 +1069,7 @@ figcaption {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  grid-column-gap: 79px;
+  grid-column-gap: 74px;
   -ms-grid-columns: 3fr 1fr;
   grid-template-columns: 3fr 1fr;
   -ms-grid-rows: auto;
@@ -1606,6 +1606,50 @@ figcaption {
   ._404-wrap {
     padding: 30px;
   }
+
+  .grid-3 {
+    grid-column-gap: 74px;
+  }
+
+  .mail {
+    max-width: 200px;
+  }
+
+  .factory {
+    max-width: 200px;
+  }
+
+  .personal {
+    max-width: 200px;
+  }
+
+  .editor {
+    max-width: 200px;
+  }
+
+  .bomb {
+    max-width: 200px;
+  }
+
+  .paragraph {
+    text-align: left;
+  }
+
+  .paragraph-2 {
+    text-align: left;
+  }
+
+  .paragraph-3 {
+    text-align: left;
+  }
+
+  .paragraph-4 {
+    text-align: left;
+  }
+
+  .paragraph-5 {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1727,14 +1771,33 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    grid-column-gap: 9px;
+    text-align: center;
+  }
+
+  .mail {
+    max-width: 100px;
   }
 
   .heading {
     width: auto;
   }
 
+  .factory {
+    max-width: 100px;
+  }
+
   .personal {
+    max-width: 100px;
     padding: 15px;
+  }
+
+  .editor {
+    max-width: 100px;
+  }
+
+  .bomb {
+    max-width: 100px;
   }
 }
 
